@@ -1,0 +1,20 @@
+{
+  "name": "smart-city-traveler",
+  "version": "1.0.0",
+  "description": "Smart City Traveler - Full Stack Travel Planning Application",
+  "main": "server.js",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node server.js",
+    "dev": "cd smart-city-traveler-frontend && npm run dev",
+    "postinstall": "node build.js"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
